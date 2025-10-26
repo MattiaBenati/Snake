@@ -1,0 +1,21 @@
+IDI_ICON ICON "../resources/icona.ico"      // icona del programma
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"        // lingua/charset: 040904B0 (en-US), 041004B0 (it-IT)
+    BEGIN
+      VALUE "FileDescription",  "Game by Mattia Benati"
+      VALUE "FileVersion",      "1.0.0"
+      VALUE "ProductName",      "Snake"
+      VALUE "ProductVersion",   "1.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0409, 1200       // traduzione: 0409 (en-US), 0410 (it-IT)
+  END
+END
